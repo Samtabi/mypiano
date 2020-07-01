@@ -1,0 +1,73 @@
+*, *::before, *::after{
+
+  box-sizing: border-box;
+}
+
+body{
+background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+
+/*min-height: 100vh;*/
+
+display: flex;
+justify-content: center;
+
+}
+
+
+.piano{
+ display: flex;
+ /*margin-top: 0px;*/
+}
+
+.key{
+
+
+}
+
+.white{
+width: 100px;
+height: 400px;
+background-color: white;
+border: 1px solid black;
+
+}
+
+.black{
+width: 60px;
+height: 240px;
+background-color: black;
+margin-right: -30px; 
+margin-left: -30px;
+z-index: 2;
+
+}
+
+
+.white.active{
+  background-color: #ccc;
+}
+
+.black.active{
+  background-color: #333;
+}
+
+h1{
+  color: white;
+  margin-bottom: 30%;
+  margin-left: 50%;
+  
+
+}
+
+footer{ color: white;
+
+
+
+
+ }
